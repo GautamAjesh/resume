@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding:0px;
+}
+
+body{
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.name{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+h3{
+    color:  rgb(56, 5, 103);
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    background: rgb(56, 5, 103);
+    color: #fff;
+    padding: 10px;
+}
+
+.address{
+    padding-right: 25px;
+}
+
+.details2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.phone{
+    padding-right: 25px;
+}
+
+.linkedin{
+    padding-right: 25px;
+}
+
+.link{
+    color: #000;
+    text-decoration: none;
+}
+
+.education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.eduDetail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course{
+    color: rgb(10, 45, 150);
+    padding: 3px;
+}
+
+.cgpa{
+    padding: 3px;
+    font-size: 15.5px;
+}
+
+.date{
+    padding: 3px;
+    font-size: 15.5px;
+}
+
+.Name{
+    padding: 3px;
+}
+
+.techSkill{
+    padding-bottom:30px;
+}
+
+.skillName spam{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.interPersSkill{
+    padding-bottom: 30px;
+}
+
+.projects{
+    padding-bottom: 30px;
+}
+
+.certificates{
+    padding-bottom: 30px;
+}
+
+.extr{
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background: #fff;
+        font-family: 'Roboto', sans-serif;
+        margin: auto;
+    }
+  }
+
